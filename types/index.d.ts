@@ -23,6 +23,6 @@ export class SimpleMapScreenshoter extends Control {
   takeScreen(format?: 'blob' | 'image' | 'canvas', overridePluginOptions?: PluginOptions): Promise<Blob|Error|ErrorEvent>;
 }
 
-declare module "leaflet" {
+declare module "leaflet-screenshoter" {
   export function simpleMapScreenshoter(options?: PluginOptions): SimpleMapScreenshoter;
 }

@@ -1,12 +1,12 @@
 {
-  "name": "leaflet-simple-map-screenshoter",
-  "version": "0.4.3",
+  "name": "@ozangokhanhergul/leaflet-simple-map-screenshoter",
+  "version": "0.4.4",
   "description": "Leaflet plugin plugin which take screenshot of map",
   "main": "dist/leaflet-simple-map-screenshoter.js",
   "typings": "types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grinat/leaflet-simple-map-screenshoter.git"
+    "url": "git+https://github.com/ozangokhanhergul/leaflet-simple-map-screenshoter"
   },
   "scripts": {
     "build": "rollup -c",
@@ -21,12 +21,12 @@
     "screenshot",
     "image"
   ],
-  "author": "Gabdrashitov Rinat <paladin2012gnu@gmail.com>",
+  "author": "Ozan Gökhan Hergül",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/grinat/leaflet-simple-map-screenshoter/issues"
+    "url": "https://github.com/ozangokhanhergul/leaflet-simple-map-screenshoter/issues"
   },
-  "homepage": "https://github.com/grinat/leaflet-simple-map-screenshoter#readme",
+  "homepage": "https://github.com/ozangokhanhergul/leaflet-simple-map-screenshoter#readme",
   "dependencies": {
     "dom-to-image-more": "^2.8.0",
     "file-saver": "^2.0.2"
